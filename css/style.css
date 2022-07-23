@@ -1,0 +1,97 @@
+
+
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    position: relative;
+    text-align: left;
+
+}
+ul li a{
+    text-decoration-color: white;
+    font-family: monospace;
+    color: #c06c84;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-color: beige;
+    padding: 5px;
+    width: 200px;
+}
+p{
+    font-family: monospace;
+   text-align: center;
+   font-size: 24px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.contact-kotak-1{
+    width: 15px;
+    height: 15px;
+    text-emphasis: none;
+
+}
+table{
+    text-align: center;
+    font-size: large;
+}
+ol li{
+    font-size: 20px;
+    align-content: left;
+    color: #355c7d;
+}
+div.contact-kotak-2 ul{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+div.contact-kotak-2 ul li{
+    list-style: none;
+    margin: 0 15%;
+}
+div.contact-kotak-2 ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+div.contact-kotak-2 ul li .fa:hover{
+    color: #fff;
+}
+div.contact-kotak-2 ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: 6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+div.contact-kotak-2 ul li a:hover{
+    transform: translate(0, -10px);
+}
+div.contact-kotak-2 ul li:nth-child(1) a:hover{
+    background-color: #E4405F;
+}
+div.contact-kotak-2 ul li:nth-child(2) a:hover{
+    background-color: #1DA1F2;
+}
+div.contact-kotak-2 ul li:nth-child(3) a:hover{
+    background-color: #25D366;
+}
